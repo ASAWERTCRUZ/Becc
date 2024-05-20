@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Becc</string>
+    <string name="title">Formulario De Beck</string>
+    <string name="Descripcion">El Inventario de Depresión de Beck-Segunda Versión, BDI-II; es un instrumento de
+        autoaplicación de 21 ítems. Ha sido diseñado para evaluar la gravedad de sintomatología depresiva en adultos y
+        adolescentes con una edad mínima de 13 años. En cada uno de los ítems, la persona tiene que elegir, entre un
+        conjunto de cuatro alternativas ordenadas de menor a mayor gravedad, la frase que mejor describe su estado
+        durante las últimas dos semanas, incluyendo el día en que completa el instrumento. En cuanto a la corrección,
+        cada ítem se valora de 0 a 3 puntos en función de la alternativa escogida y, tras sumar directamente la
+        puntuación de cada ítem, se puede obtener una puntuación total que varía de 0 a 63.
+    </string>
+    <string name="pregunta">Quieres realizar el formulario ?</string>
+    <string name="reg">Registrate</string>
+    <string name="titlename">Nombres</string>
+    <string name="titlehint">Nombres</string>
+    <string name="titleapellido">Apellido</string>
+    <string name="hintapellido">Apellido</string>
+    <string name="titleedad">Edad</string>
+    <string name="hintedad">Edad</string>
+    <string name="btnreg">Registrar</string>
+    <string name="pregunta_1_tristeza">Pregunta 1: Tristeza</string>
+    <string name="no_me_siento_triste">No me siento triste</string>
+    <string name="me_siento_triste_la_mayor_parte_del_tiempo">Me siento triste la mayor parte del tiempo</string>
+    <string name="me_siento_tan_triste_o_desdichado_a_que_no_puedo_soportarlo">Me siento tan triste o desdichado/a que
+        no puedo soportarlo
+    </string>
+    <string name="me_siento_tan_mal_o_soy_tan_infeliz_que_no_puedo_soportarlo">Me siento tan mal o soy tan infeliz que
+        no puedo soportarlo
+    </string>
+    <string name="pregunta_2_pesimismo">Pregunta 2: Pesimismo</string>
+    <string name="no_estoy_particularmente_desilusionado_a_conmigo_mismo_a">No estoy particularmente desilusionado/a
+        conmigo mismo/a
+    </string>
+    <string name="cambios_en_el_sue_o">Cambios en el sueño</string>
+    <string name="duermo_menos_de_lo_habitual_y_a_veces_tengo_problemas_para_conciliar_el_sue_o">Duermo menos de lo
+        habitual y a veces tengo problemas para conciliar el sueño
+    </string>
+    <string name="duermo_un_poco_menos_de_lo_habitual_pero_no_lo_encuentro_inc_modo">Duermo un poco menos de lo
+        habitual, pero no lo encuentro incómodo
+    </string>
+    <string name="dialog_nombre_paciente">Nombre del paciente: %s</string>
+    <string name="dialog_puntuacion">Puntuación: %d</string>
+    <string name="dialog_grado_depresion">Grado de depresión: %s</string>
+    <string name="dialog_consejo">Consejo: %s</string>
+    <string name="registrar">Registrar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="apellido">Apellido</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="contrase_aas">Contraseña</string>
+    <string name="registrarse">Registrate</string>
+    <string name="logo">Logo</string>
+
+</resources>

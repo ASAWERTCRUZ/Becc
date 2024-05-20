@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Nombre del paciente"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+
+    <TextView
+            android:id="@+id/txtPuntuacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puntuación: 0"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+
+    <TextView
+            android:id="@+id/txtGradoDepresion"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:text="Grado de depresión: Ninguno"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+
+    <TextView
+            android:id="@+id/txtConsejo"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:text="Consejo: Ninguno"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+
+    <Button
+            android:id="@+id/btnAceptar"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_gravity="center" />
+
+</LinearLayout>

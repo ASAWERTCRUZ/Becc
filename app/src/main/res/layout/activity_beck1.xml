@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <!-- Pregunta 1: Tristeza -->
+        <TextView
+                android:id="@+id/textViewPregunta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pregunta_1_tristeza"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+        <!-- RadioGroup para la pregunta 1 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta1"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 1 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_me_siento_triste"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/me_siento_triste_la_mayor_parte_del_tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta1_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/me_siento_tan_triste_o_desdichado_a_que_no_puedo_soportarlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta1_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/me_siento_tan_mal_o_soy_tan_infeliz_que_no_puedo_soportarlo"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 2: Pesimismo -->
+        <TextView
+                android:id="@+id/textViewPregunta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pregunta_2_pesimismo"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta1" tools:ignore="HardcodedText"/>
+
+        <!-- RadioGroup para la pregunta 2 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta2"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 2 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_estoy_particularmente_desilusionado_a_conmigo_mismo_a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy desilusionado/a conmigo mismo/a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siento que he fallado más que una persona debería"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuando miro hacia el futuro, no espero que las cosas mejoren"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 3: Autocrítica -->
+        <TextView
+                android:id="@+id/textViewPregunta3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 3: Autocrítica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta2" />
+
+        <!-- RadioGroup para la pregunta 3 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta3"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 3 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me critico a mí mismo/a más de lo que la mayoría de la gente se critica a sí misma"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy más crítico/a conmigo mismo/a de lo que debería ser"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soy crítico/a conmigo mismo/a todo el tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta3_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo dejar de pensar en lo mal que soy"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 4: Pérdida de placer -->
+        <TextView
+                android:id="@+id/textViewPregunta4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 4: Pérdida de placer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta3" />
+
+        <!-- RadioGroup para la pregunta 4 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta4"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 4 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento satisfecho/a con las cosas que usualmente disfruto"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No disfruto de las cosas tanto como solía hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No encuentro satisfacción en nada"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo disfrutar de nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 5: Sentimientos de culpa -->
+        <TextView
+                android:id="@+id/textViewPregunta5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 5: Sentimientos de culpa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta4" />
+
+        <!-- RadioGroup para la pregunta 5 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta5"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 5 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me siento particularmente culpable"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento culpable la mayor parte del tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento culpable todo el tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta5_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy tan culpable que no puedo soportarlo"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 6: Lentitud -->
+        <TextView
+                android:id="@+id/textViewPregunta6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 6: Lentitud"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta5" />
+
+        <!-- RadioGroup para la pregunta 6 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta6"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 6 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me siento particularmente lento/a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento más lento/a de lo que solía ser"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta6_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me muevo más lentamente que lo habitual"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta6_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tengo dificultades para moverme o me siento paralizado/a"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 7: Agitación -->
+        <TextView
+                android:id="@+id/textViewPregunta7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregunta 7: Agitación"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_below="@id/radioGroupPregunta6" />
+
+        <!-- RadioGroup para la pregunta 7 -->
+        <RadioGroup
+                android:id="@+id/radioGroupPregunta7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPregunta7"
+                android:orientation="vertical">
+
+            <!-- Opciones de la pregunta 7 -->
+            <RadioButton
+                    android:id="@+id/opcionPregunta7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me siento particularmente agitado/a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento más inquieto/a de lo habitual"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta7_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento tan inquieto/a que me resulta difícil quedarme quieto/a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/opcionPregunta7_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy tan inquieto/a que tengo que estar en movimiento"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Botones de retroceso y siguiente -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/radioGroupPregunta7"
+                android:layout_marginTop="16dp">
+
+            <Button
+                    android:id="@+id/btnRetroceso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Retroceso"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"/>
+
+            <Button
+                    android:id="@+id/btnSiguiente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siguiente"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

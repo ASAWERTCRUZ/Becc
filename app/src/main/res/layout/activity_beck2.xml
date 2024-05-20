@@ -1,0 +1,361 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <!-- Pregunta 8: Fatigabilidad -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fatigabilidad"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupFatigabilidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta8Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me canso más fácilmente que de costumbre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta8Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me canso más fácilmente que de costumbre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta8Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me canso sin hacer mucho"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta8Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy demasiado cansado/a para hacer muchas de las cosas que solía hacer"
+                    android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Pregunta 9: Pérdida de apetito -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de apetito"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaApetito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta9Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No he perdido mi apetito"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta9Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He perdido mi apetito más de lo que solía"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta9Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prácticamente no tengo apetito"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta9Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He perdido todo mi apetito"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 10: Pérdida de peso -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de peso"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta10Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No he perdido mucho peso, si es que lo he perdido en absoluto"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta10Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He perdido más de cinco libras"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta10Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He perdido más de diez libras"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta10Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He perdido más de quince libras"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 11: Ganancia de peso -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ganancia de peso"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupGananciaPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta11Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No he ganado mucho peso, si es que he ganado algo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta11Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He ganado más de cinco libras"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta11Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He ganado más de diez libras"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta11Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He ganado más de quince libras"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 12: Suicidio -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pensamientos suicidas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupSuicidio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta12Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No he tenido ningún pensamiento de hacerme daño"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta12Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He tenido pensamientos de hacerme daño, pero no los llevaría a cabo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta12Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me haría daño si tuviera la oportunidad"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta12Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me haría daño si tuviera la oportunidad de hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta12Radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me mataría si tuviera la oportunidad de hacerlo"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 13: Agitación -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agitación"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupAgitacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta13Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No estoy más inquieto/a que de costumbre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta13Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento más inquieto/a de lo que solía estar"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta13Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento tan inquieto/a que no puedo quedarme quieto/a"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta13Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy tan inquieto/a que tengo que estar siempre en movimiento o haciendo algo"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 14: Dificultad para concentrarse -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dificultad para concentrarse"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupConcentracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta14Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puedo concentrarme tan bien como siempre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta14Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo concentrarme tan bien como antes"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta14Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me resulta difícil mantener la mente en algo por mucho tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta14Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siento que no puedo concentrarme en nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Botones de navegación -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <Button
+                    android:id="@+id/btnAnterior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anterior"
+                    android:layout_margin="8dp" />
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+            <Button
+                    android:id="@+id/btnsiguiete2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siguiente"
+                    android:layout_margin="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

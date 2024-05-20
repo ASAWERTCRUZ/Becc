@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="seccionTitulo">#FFFFFF</color>
+
+    <!-- Colores primarios -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+
+    <!-- Colores de acento -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Colores de fondo -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackgroundDark">#E0E0E0</color>
+
+    <!-- Colores de texto -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <!-- Colores de botones -->
+    <color name="colorButtonNormal">#2196F3</color>
+    <color name="colorButtonPressed">#1976D2</color>
+    <color name="colorButtonDisabled">#BDBDBD</color>
+
+    <!-- Colores de la barra de estado -->
+    <color name="colorStatusBar">#000000</color>
+
+    <!-- Colores de las barras de herramientas -->
+    <color name="colorToolbar">#FFFFFF</color>
+
+    <!-- Colores de las pestañas -->
+    <color name="colorTabSelected">#FF5722</color>
+    <color name="colorTabUnselected">#9E9E9E</color>
+
+    <!-- Otros colores -->
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorError">#FF0000</color>
+</resources>

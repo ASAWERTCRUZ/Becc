@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingTop="20dp">
+
+
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView" android:text="@string/title"
+                android:textSize="24sp" android:textAlignment="center"/>
+        <TextView
+                android:text="@string/Descripcion"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:textAlignment="center"
+                android:textSize="16sp" android:textStyle="italic"/>
+        <TextView
+                android:text="@string/pregunta"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4" android:textAlignment="center"
+                android:textSize="16sp" android:textStyle="bold"/>
+        <TextView
+                android:text="@string/reg"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView3" android:textSize="20sp"
+                android:textStyle="bold" android:textAlignment="center"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:layout_height="wrap_content" android:id="@+id/textView5" android:text="@string/titlename"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/txtnombre"
+                android:hint="@string/titlehint" android:minHeight="48dp"
+                android:autofillHints=""/>
+        <TextView
+                android:text="@string/titleapellido"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView6"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/txtapellido" android:hint="@string/hintapellido" android:minHeight="48dp"
+                android:autofillHints="" android:textColorHint="#546E7A"/>
+        <TextView
+                android:layout_marginTop="20dp"
+
+                android:text="@string/titleedad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView7"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtedad" android:hint="@string/hintedad" android:minHeight="48dp"
+                android:autofillHints=""/>
+        <Button
+                android:text="@string/btnreg"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datosenviar"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <!-- Pregunta 15: Cambios en el sueño -->
+        <TextView
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cambios_en_el_sue_o"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupSueno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta15Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No tengo ningún cambio en mi patrón de sueño"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta15Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duermo_un_poco_menos_de_lo_habitual_pero_no_lo_encuentro_inc_modo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta15Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duermo_menos_de_lo_habitual_y_a_veces_tengo_problemas_para_conciliar_el_sue_o"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta15Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me despierto mucho antes de lo que solía hacerlo y a veces tengo problemas para volver a dormir"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 16: Fatiga -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Fatiga"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupFatiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta16Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me siento más cansado/a de lo habitual"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta16Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me canso más fácilmente que de costumbre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta16Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me canso al hacer cualquier cosa"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta16Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estoy demasiado cansado/a para hacer cualquier cosa"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 17: Sentimientos de inutilidad -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sentimientos de inutilidad o culpa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupInutilidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta17Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No me siento particularmente culpable"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta17Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento culpable por varias cosas que he hecho o que he dejado de hacer"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta17Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento bastante culpable la mayor parte del tiempo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta17Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me siento culpable todo el tiempo"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 18: Pérdida de interés -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de interés o placer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaInteres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta18Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puedo disfrutar de las cosas tanto como siempre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta18Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No disfruto tanto de las cosas como solía hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta18Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me resulta difícil interesarme por cualquier cosa"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta18Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo disfrutar de nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 19: Pérdida de interés -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de interés o placer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaInteres2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta19Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puedo disfrutar de las cosas tanto como siempre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta19Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No disfruto tanto de las cosas como solía hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta19Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me resulta difícil interesarme por cualquier cosa"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta19Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo disfrutar de nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 20: Pérdida de interés -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de interés o placer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaInteres3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta20Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puedo disfrutar de las cosas tanto como siempre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta20Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No disfruto tanto de las cosas como solía hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta20Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me resulta difícil interesarme por cualquier cosa"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta20Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo disfrutar de nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Pregunta 21: Pérdida de interés -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pérdida de interés o placer"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/seccionTitulo" />
+
+        <RadioGroup
+                android:id="@+id/radioGroupPerdidaInteres4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RadioButton
+                    android:id="@+id/pregunta21Radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Puedo disfrutar de las cosas tanto como siempre"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta21Radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No disfruto tanto de las cosas como solía hacerlo"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta21Radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Me resulta difícil interesarme por cualquier cosa"
+                    android:textSize="16sp" />
+
+            <RadioButton
+                    android:id="@+id/pregunta21Radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No puedo disfrutar de nada"
+                    android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Botón de enviar -->
+        <Button
+                android:id="@+id/btnAceptar"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center" android:textSize="24sp"/>
+
+    </LinearLayout>
+</ScrollView>
